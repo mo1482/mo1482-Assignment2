@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #f5f5f5;
+}
+
+.card {
+    width: min(90%, 500px);
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 16px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.track {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+a,
+button {
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    background: #333;
+    color: white;
+}
+
+button {
+    font-size: 16px;
+}
+
+#message {
+    min-height: 20px;
+}
